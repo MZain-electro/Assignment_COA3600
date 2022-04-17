@@ -22,7 +22,7 @@ void swap_two_numbers(int *a, int *b) {
 
 void heapify(int arr[], int n, int i) {
     if(n!=0) {
-        printf("Intermediate traversals \n");
+        printf("Resultant Tree After Each Pass \n");
         printArray(arr, n);
     }
     int largest = i;
